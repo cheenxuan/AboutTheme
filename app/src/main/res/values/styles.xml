@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="colorPrimary">@color/colorBluePrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorBluePrimaryDark</item>-->
+        <!--<item name="textColor">@color/textBlueColor</item>-->
+        <!--<item name="android:activityOpenEnterAnimation">@anim/fade_in</item>-->
+
+        <!--<item name="android:activityOpenExitAnimation">@anim/fade_out</item>-->
+
+        <!--<item name="android:activityCloseEnterAnimation">@anim/fade_in</item>-->
+
+        <!--<item name="android:activityCloseExitAnimation">@anim/fade_out</item>-->
+    </style>
+
+    <style name="BlueTheme" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorBluePrimary</item>
+        <item name="colorPrimaryDark">@color/colorBluePrimaryDark</item>
+        <item name="textColor">@color/textBlueColor</item>
+    </style>
+
+    <style name="RedTheme" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorRedPrimary</item>
+        <item name="colorPrimaryDark">@color/colorRedPrimaryDark</item>
+        <item name="textColor">@color/textRedColor</item>
+    </style>
+
+    <style name="BrownTheme" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorBrownPrimary</item>
+        <item name="colorPrimaryDark">@color/colorBrownPrimaryDark</item>
+        <item name="textColor">@color/textBrownColor</item>
+    </style>
+
+</resources>

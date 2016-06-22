@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.xuan.abouttheme.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_testTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textSize="22sp"
+        android:textColor="?attr/textColor"/>
+
+    <Button
+        android:id="@+id/btn_blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="?attr/textColor"
+        android:textSize="18sp"
+        android:text="蓝色"/>
+    <Button
+        android:id="@+id/btn_red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="?attr/textColor"
+        android:text="红色"/>
+    <Button
+        android:id="@+id/btn_brown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="?attr/textColor"
+        android:textSize="18sp"
+        android:text="棕色"/>
+
+    <Button
+        android:id="@+id/btn_trransStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="动态切换整体主题"
+        android:textSize="18sp"/>
+</LinearLayout>
