@@ -16,24 +16,35 @@
     </style>
 
     <style name="BlueTheme" parent="AppTheme">
-        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorBluePrimary</item>
         <item name="colorPrimaryDark">@color/colorBluePrimaryDark</item>
-        <item name="textColor">@color/textBlueColor</item>
+        <item name="colorAccent">@color/colorBluePrimaryDark</item>
+        <item name="imageBackground">@drawable/blue_background</item>
+        <item name="textColor">@color/colorBluePrimary</item>
     </style>
 
     <style name="RedTheme" parent="AppTheme">
-        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorRedPrimary</item>
         <item name="colorPrimaryDark">@color/colorRedPrimaryDark</item>
-        <item name="textColor">@color/textRedColor</item>
+        <item name="colorAccent">@color/colorRedPrimaryDark</item>
+        <item name="imageBackground">@drawable/red_background</item>
+        <item name="textColor">@color/colorRedPrimaryDark</item>
     </style>
 
     <style name="BrownTheme" parent="AppTheme">
-        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorBrownPrimary</item>
         <item name="colorPrimaryDark">@color/colorBrownPrimaryDark</item>
-        <item name="textColor">@color/textBrownColor</item>
+        <item name="colorAccent">@color/colorBrownPrimaryDark</item>
+        <item name="imageBackground">@drawable/brown_brackground</item>
+        <item name="textColor">@color/colorBrownPrimaryDark</item>
     </style>
+
+    <style name="YellowTheme" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorYellowPrimary</item>
+        <item name="colorPrimaryDark">@color/colorYellowPrimaryDark</item>
+        <item name="textColor">@color/textYellowColor</item>
+    </style>
+
 
 </resources>

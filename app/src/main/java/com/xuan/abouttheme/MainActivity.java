@@ -41,9 +41,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         Log.i("ceshi", "OnCreat执行");
         onPreCreate();
-        //        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
-        //            setTranslucentStatus(true);
-        //        }
+//                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+//                    setTranslucentStatus(true);
+//                }
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
 

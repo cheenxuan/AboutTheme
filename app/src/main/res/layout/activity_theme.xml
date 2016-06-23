@@ -1,19 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
+    android:orientation="vertical"
     tools:context="com.xuan.abouttheme.ThemeActivity">
 
+    <com.xuan.abouttheme.view.ColorImageView
+        android:id="@+id/status_bar"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="?attr/colorPrimary"/>
 
-    <TextView
-        android:padding="10dp"
-        android:layout_width="wrap_content"
+    <com.xuan.abouttheme.view.ColorRelativeLayout
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="?attr/colorPrimary"
+        >
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="12dp"/>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/icon"
+            android:text="@string/app_name"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"/>
+
+    </com.xuan.abouttheme.view.ColorRelativeLayout>
+
+
+    <com.xuan.abouttheme.view.ColorTextView
+        android:id="@+id/tv_test"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="这是切换主题的一个界面"
         android:gravity="center"
+        android:padding="5dp"
+        android:text="动态切换主题的测试"
+        android:textColor="?attr/textColor"
         android:textSize="18sp"/>
 
-</RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <com.xuan.abouttheme.view.ColorButton
+            android:id="@+id/btn_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="蓝色"
+            android:textColor="?attr/textColor"/>
+
+        <com.xuan.abouttheme.view.ColorButton
+            android:id="@+id/btn_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="红色"
+            android:textColor="?attr/textColor"/>
+
+        <com.xuan.abouttheme.view.ColorButton
+            android:id="@+id/btn_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="棕色"
+            android:textColor="?attr/textColor"/>
+    </LinearLayout>
+
+    <com.xuan.abouttheme.view.ColorImageView
+        android:id="@+id/image"
+        android:background="?attr/imageBackground"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <com.xuan.abouttheme.view.ColorRecycleView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:divider="@null"
+        android:layout_height="wrap_content">
+
+    </com.xuan.abouttheme.view.ColorRecycleView>
+
+
+</LinearLayout>

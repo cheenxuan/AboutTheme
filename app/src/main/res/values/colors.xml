@@ -4,12 +4,21 @@
     <color name="colorBluePrimary">#3F51B5</color>
     <color name="colorBluePrimaryDark">#303F9F</color>
     <color name="textBlueColor">#3F51B5</color>
+    <color name="colorBluePrimaryCenter">#062748</color>
+    <color name="black">#040404</color>
     <!--红色主题颜色-->
     <color name="colorRedPrimary">#ff7575</color>
     <color name="colorRedPrimaryDark">#FF2D2D</color>
     <color name="textRedColor">#FF2D2D</color>
+    <color name="colorRedPrimaryCenter">#560d08</color>
     <!--棕色主题颜色-->
     <color name="colorBrownPrimary">#CF9E9E</color>
     <color name="colorBrownPrimaryDark">#B87070</color>
+    <color name="colorBrownPrimaryCenter">#431d12</color>
     <color name="textBrownColor">#B87070</color>
+
+    <!--黄色主题颜色-->
+    <color name="colorYellowPrimary">#DDDD00</color>
+    <color name="colorYellowPrimaryDark">#DDDD00</color>
+    <color name="textYellowColor">#DDDD00</color>
 </resources>
